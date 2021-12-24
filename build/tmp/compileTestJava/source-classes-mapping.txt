@@ -1,0 +1,2 @@
+com/rpm/admin/HelloControllerTest.java
+ com.rpm.admin.HelloControllerTest
