@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.rpm.admin.web.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-10T05:39:27" hostname="rpmui-MacBookPro.local" time="0.013">
+<testsuite name="com.rpm.admin.web.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-12T05:26:45" hostname="rpmui-MacBookPro.local" time="0.102">
   <properties/>
-  <testcase name="test_lombok_operation" classname="com.rpm.admin.web.dto.HelloResponseDtoTest" time="0.013"/>
+  <testcase name="test_lombok_operation" classname="com.rpm.admin.web.dto.HelloResponseDtoTest" time="0.102"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
