@@ -22,7 +22,7 @@ notifications:
       - vidafirmar@gmail.com
 
 before_deploy:
-  - zip -r springboot-project
+  - zip -r springboot-project.zip
   - mkdir -p deploy
   - mv springboot-project.zip deploy/springboot-project.zip
 
