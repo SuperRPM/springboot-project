@@ -22,9 +22,9 @@ notifications:
       - vidafirmar@gmail.com
 
 before_deploy:
-  - zip -r springboot-project.zip
+  - zip -r rpm-springboot-project springboot-project
   - mkdir -p deploy
-  - mv springboot-project.zip deploy/springboot-project.zip
+  - mv rpm-springboot-project.zip deploy/rpm-springboot-project.zip
 
 deploy:
   - provider: s3
@@ -32,7 +32,7 @@ deploy:
 
     secret_access_key: $AWS_SECRET_KEY
 
-    bucket: springboot-project
+    bucket: rpm-spring-boot-build
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
