@@ -24,7 +24,7 @@ notifications:
 before_deploy:
   - zip -r springboot-project
   - mkdir -p deploy
-  - mv rpm-springboot-project.zip deploy/springboot-project.zip
+  - mv springboot-project.zip deploy/springboot-project.zip
 
 deploy:
   - provider: s3
