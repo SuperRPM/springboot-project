@@ -15,12 +15,6 @@ cache:
 
 script: "./gradlew clean build"
 
-# CI 실행 완료 시 메일로 알람
-notifications:
-  email:
-    recipients:
-      - vidafirmar@gmail.com
-
 before_deploy:
   - zip -r rpm-springboot-project *
   - mkdir -p deploy
@@ -51,3 +45,9 @@ deploy:
     deployment_group: rpm-spring-boot-project-deploy-group
     region: ap-northeast-2
     wait-until-deployed: true
+
+    # CI 실행 완료 시 메일로 알람
+    notifications:
+      email:
+        recipients:
+          - vidafirmar@gmail.com
