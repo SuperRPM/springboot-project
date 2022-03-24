@@ -38,7 +38,7 @@ deploy:
     secret_access_key: $AWS_SECRET_KEY
 
     bucket: rpm-spring-boot-build
-    key: rpm-springboot-project.zip
+    key: spring-project #rpm-springboot-project.zip
 
     bundle_type: zip
     application: rpm-spring-boot-project
